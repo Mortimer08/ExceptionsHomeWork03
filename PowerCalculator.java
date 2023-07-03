@@ -19,8 +19,8 @@
 public class PowerCalculator {
     public double calculatePower(double base, double exponent) throws InvalidInputException {
         double result;
-        if(base ==0 || exponent <0){
-            throw new  InvalidInputException("Prohibited values entered");
+        if (base == 0 || exponent < 0) {
+            throw new InvalidInputException("Prohibited values entered");
         }
         result = Math.pow(base, exponent);
         return result;

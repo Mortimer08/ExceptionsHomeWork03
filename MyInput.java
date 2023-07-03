@@ -1,11 +1,11 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class iInput {
+public class MyInput {
     private static final Scanner iScanner = new Scanner(System.in);
     public static double number(String message) {
 
-        double iNumber = 0;
+        double iNumber;
         while (true) {
             try {
                 System.out.print(message);
